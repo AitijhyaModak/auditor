@@ -4,8 +4,16 @@ This repo implements Ridge Regression (L2 regularisation) using pure NumPy and M
 The goal is to demonstrate how regularization stabilizes a linear model when features (like GDP and Life Expectancy) are highly correlated, preventing "exploding" weights.
 
 ## Mathematical Formula
-Unlike standard implementations, this project uses the Normal Equation derived from linear algebra:$$\theta = (X^T X + \lambda I)^{-1} X^T y$$
+Unlike standard implementations, this project uses the Normal Equation derived from linear algebra:
 
+```math
+
+<div align="center">
+
+\theta = (X^T X + \lambda I)^{-1} X^T Y
+
+</div>
+```
 Each feature is Z-Score normalized to ensure the penalty is applied fairly across all features.
 
 ## Dataset
