@@ -10,7 +10,7 @@ Unlike standard implementations, this project uses the Normal Equation derived f
 
 <div align="center">
 
-\theta = (X^T X + \lambda I)^{-1} X^T y
+\theta = (X^T X + \lambda I)^{-1} X^T Y
 
 </div>
 ```
